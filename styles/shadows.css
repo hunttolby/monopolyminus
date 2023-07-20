@@ -1,0 +1,24 @@
+:root {
+  --shadow-input-border-error: 0px 0px 2px 1px #fc6969;
+  --shadow-input-border-active: 0px 0px 2px 1px rgba(255, 255, 255, 1);
+}
+
+:root,
+[data-theme='purple'] { 
+  --shadow-modal: -1px -1px 6px 1px #7679f4, 1px 1px 6px 1px #e33d94;
+}
+
+:root,
+[data-theme='red'] { 
+  --shadow-modal: -1px -1px 6px 1px #d64541, 1px 1px 6px 1px #fffc7f;
+}
+
+:root,
+[data-theme='green'] { 
+  --shadow-modal: -1px -1px 6px 1px #1e824c, 1px 1px 6px 1px #00b5cc;
+}
+
+:root,
+[data-theme='blue'] { 
+  --shadow-modal: -1px -1px 6px 1px #2d55ff, 1px 1px 6px 1px #14cdc8;
+}

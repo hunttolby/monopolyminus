@@ -1,0 +1,52 @@
+:root {
+  --color-text-primary: rgba(204, 204, 204, 1);
+  --color-text-secondary: rgba(66, 70, 76, 1);
+  --color-text-tertiary: rgba(115, 115, 115, 1);
+  --color-text-accent: rgba(85, 89, 246, 1);
+  --color-text-alert: rgba(244, 109, 109, 1);
+
+  --color-border-L1: rgba(66, 70, 76, 1);
+  --color-border-L2: rgba(35, 37, 42, 1);
+  --color-border-L3: rgba(36, 37, 41, 1);
+
+  --color-bg-L0: rgba(24, 25, 27, 1);
+  --color-bg-L1: rgba(35, 37, 42, 1);
+  --color-bg-L2: rgba(66, 70, 76, 1);
+  --color-bg-L3: rgba(115, 115, 115, 1);
+  --color-bg-accent: rgba(85, 89, 246, 1);
+
+  --color-bg-button-primary: rgba(255, 255, 255, 1);
+  --color-bg-button-primary-hover: rgba(222, 222, 222, 1);
+  --color-bg-button-primary-disabled: rgba(222, 222, 222, 0.5);
+
+  --color-bg-button-secondary: rgba(24, 25, 27, 1);
+  --color-bg-button-secondary-hover: rgba(35, 37, 42, 1);
+  --color-bg-button-secondary-disabled: rgba(66, 70, 76, 1);
+  
+  --color-bg-scrollbar: rgba(92, 99, 112, 0.4);
+  --color-bg-scrollbar-hover: rgba(69, 74, 84, 0.3);
+}
+
+:root,
+[data-theme='purple'] { 
+  --color-text-accent: rgba(85, 89, 246, 0.9);
+  --color-bg-accent: rgba(85, 89, 246, 0.9);
+}
+
+:root,
+[data-theme='red'] { 
+  --color-text-accent: #d64541E6;
+  --color-bg-accent: #d64541E6;
+}
+
+:root,
+[data-theme='green'] { 
+  --color-text-accent: #1e824cE6;
+  --color-bg-accent: #1e824cE6;
+}
+
+:root,
+[data-theme='blue'] { 
+  --color-text-accent: #2d55ffE6;
+  --color-bg-accent: #2d55ffE6;
+}
